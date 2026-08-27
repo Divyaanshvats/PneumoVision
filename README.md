@@ -1,5 +1,3 @@
-# PneumoVision
-
 # 🫁 PneumoVision
 
 ### Chest X-Ray Pneumonia Classification with DenseNet121
@@ -10,7 +8,7 @@ PneumoVision is a PyTorch-based deep learning project that classifies chest
 X-rays into **NORMAL** and **PNEUMONIA** using transfer learning with
 **DenseNet121**.
 
-### 🔬 Method
+## 🔬 Method
 
 Chest X-Rays
      ↓
