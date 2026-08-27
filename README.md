@@ -63,9 +63,9 @@ a NORMAL/PNEUMONIA prediction with confidence using the trained model.
 Python · PyTorch · Torchvision · DenseNet121 · Scikit-learn · Streamlit ·
 Google Colab · NVIDIA Tesla T4
 
-##🔭 Future Work
+## 🔭 Future Work
 
 This DenseNet121 implementation serves as the baseline for comparing
 Ensemble Learning, Federated Learning, and Quantum Machine Learning.
 
-⚠️ For educational and research purposes only. Not a medical diagnostic tool.
+### ⚠️ For educational and research purposes only. Not a medical diagnostic tool.
