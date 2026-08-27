@@ -63,6 +63,16 @@ a NORMAL/PNEUMONIA prediction with confidence using the trained model.
 Python · PyTorch · Torchvision · DenseNet121 · Scikit-learn · Streamlit ·
 Google Colab · NVIDIA Tesla T4
 
+## 📚 Datasets
+
+**Primary Dataset — Chest X-Ray Images (Pneumonia)**  
+5,863 chest X-ray images across NORMAL and PNEUMONIA classes.  
+[View Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+**External Validation Dataset — Detection of Pneumonia Disease using Chest Radiograph Image Dataset**  
+504 independent chest X-rays: 204 NORMAL and 300 PNEUMONIA. Used only for external validation without retraining.  
+[View Dataset on Mendeley Data](https://data.mendeley.com/datasets/kpg5yz77gj/1)
+
 ## 🔭 Future Work
 
 This DenseNet121 implementation serves as the baseline for comparing
