@@ -12,7 +12,6 @@ X-rays into **NORMAL** and **PNEUMONIA** using transfer learning with
 
 ## 🔬 Method
 
-```text
 Chest X-Rays
      ↓
 Preprocessing (224×224 + ImageNet Normalization)
@@ -32,7 +31,7 @@ Streamlit Deployment
 Training: Adam, CrossEntropyLoss, batch size 32, 5 epochs initial training
 + 5 epochs fine-tuning, NVIDIA Tesla T4.
 
-📊 Results
+## 📊 Results
 Internal Test
 Metric	Score
 Accuracy	85.42%
@@ -56,17 +55,17 @@ The performance drop demonstrates cross-dataset domain shift. While
 pneumonia sensitivity remained high, the model misclassified most normal
 external images as pneumonia.
 
-🌐 Deployment
+## 🌐 Deployment
 
 A Streamlit application allows users to upload a chest X-ray and receive
 a NORMAL/PNEUMONIA prediction with confidence using the trained model.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python · PyTorch · Torchvision · DenseNet121 · Scikit-learn · Streamlit ·
 Google Colab · NVIDIA Tesla T4
 
-🔭 Future Work
+##🔭 Future Work
 
 This DenseNet121 implementation serves as the baseline for comparing
 Ensemble Learning, Federated Learning, and Quantum Machine Learning.
